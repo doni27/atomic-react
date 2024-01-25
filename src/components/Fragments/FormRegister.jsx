@@ -1,7 +1,7 @@
 import Button from "../Elements/Button";
 import InputForm from "../Elements/Input";
 
-const FormRegister = () => {
+const FormRegister = ({name, phone}) => {
 	return (
 		<form action="">
 			<InputForm
